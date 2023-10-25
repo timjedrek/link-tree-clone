@@ -3,7 +3,7 @@
 </h1>
 
 <style lang="postcss">
-  :global(html) {
+  /*:global(html) {
     background-color: theme(colors.slate.900);
-  }
+  }*/
 </style>
