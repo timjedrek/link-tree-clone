@@ -2,7 +2,7 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 import { getAuth } from "firebase/auth";
 import { getStorage } from "firebase/storage";
-import { getAnalytics } from "firebase/analytics";
+//import { getAnalytics } from "firebase/analytics";
 
 const firebaseConfig = {
   apiKey: "AIzaSyCyTEB9Yy2-o_DUYctaVe687hccCSSssSw",
@@ -19,4 +19,6 @@ export const app = initializeApp(firebaseConfig);
 export const db = getFirestore();
 export const auth = getAuth();
 export const storage = getStorage();
-export const analytics = getAnalytics(app);
+//export const analytics = getAnalytics(app);
+// ANALYTICS threw a reference window error.. check out https://joyofcode.xyz/sveltekit-google-analytics
+
